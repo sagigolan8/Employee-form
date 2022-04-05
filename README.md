@@ -41,10 +41,10 @@
 
 ## Background
 
-- [] Congratulations, you are the CEO of the successful human resources company .
-- [] The company has many employees with the same position in different parts of the country and around the world (all workers are Paramedics).
-- [] Each employee's day begins with filling out a manual form that includes his or her personal details, workplace, and inventory list at the current workplace.
-- [] Following the growth of the company, there is a need to upgrade to a smarter system that will give every employee the opportunity to fill out the form online and submit it.
+- Congratulations, you are the CEO of the successful human resources company .
+- The company has many employees with the same position in different parts of the country and around the world (all workers are Paramedics).
+- Each employee's day begins with filling out a manual form that includes his or her personal details, workplace, and inventory list at the current workplace.
+- Following the growth of the company, there is a need to upgrade to a smarter system that will give every employee the opportunity to fill out the form online and submit it.
 
 <p style= "text-align:right">(<a href="#top">back to top</a>)</p>
 
