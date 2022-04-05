@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from 'react'
-import { rows } from '../db/db'
+import { rows } from '../Helpers/EquipmentsList'
 import TextField from "@material-ui/core/TextField";
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
