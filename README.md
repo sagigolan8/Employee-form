@@ -74,7 +74,7 @@
 
 ## Architecture
 
-![Architecture](./form/public/assets/EmpoyeeFormArchitecture.png)
+![Architecture](./assets/EmpoyeeFormArchitecture.png)
 
 <p style= "text-align:right">(<a href="#top">back to top</a>)</p>
 
