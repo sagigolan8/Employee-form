@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Send from './Components/Send';
-import Form from './Components/Form';
+import Form from './components/Form';
 import { ToastContainer } from 'react-toastify';
+import Sent from './components/Sent';
 
 export default function App() {
   useEffect(()=>{
@@ -18,7 +18,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Form/>} />
-        <Route path="/send" element={<Send/>} />
+        <Route path="/sent" element={<Sent/>} />
       </Routes>
       <ToastContainer/>
     </Router>

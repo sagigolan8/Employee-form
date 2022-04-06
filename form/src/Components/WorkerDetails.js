@@ -2,12 +2,12 @@ import React,{ useEffect, useRef, useState } from "react";
 import { TextField, Box, Button } from "@material-ui/core";
 import moment from 'moment';
 import { useDispatch } from 'react-redux';
-import { updateUser } from '../Reducers/userSlice'
+import { updateUser } from '../reducers/userSlice'
 import SignaturePad from 'react-signature-canvas'
 import BackspaceRoundedIcon from '@mui/icons-material/BackspaceRounded';
 import SaveRoundedIcon from '@mui/icons-material/SaveRounded';
 import { Typography } from '@mui/material';
-import { successNotification } from "../Helpers/NiceAlerts";
+import { successNotification } from "../helpers/niceAlerts";
 import ReplayIcon from '@mui/icons-material/Replay';
 
 export default function WorkerDetails() {

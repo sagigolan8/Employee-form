@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from 'react'
-import { rows } from '../Helpers/EquipmentsList'
+import { rows } from '../helpers/equipmentsList'
 import TextField from "@material-ui/core/TextField";
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
@@ -13,9 +13,9 @@ import { Button, Typography } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
 import NewItem from './NewItem';
 import { useDispatch } from 'react-redux';
-import { updateEquipment } from '../Reducers/equipmentSlice';
+import { updateEquipment } from '../reducers/equipmentSlice';
 import { Container } from '@material-ui/core';
-import { deleteAlert } from '../Helpers/NiceAlerts';
+import { deleteAlert } from '../helpers/niceAlerts';
 
   const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {

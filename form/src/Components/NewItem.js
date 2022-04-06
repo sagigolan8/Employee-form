@@ -1,7 +1,7 @@
 import React,{ useRef } from "react";
 import AddIcon from "@material-ui/icons/Add";
 import { TextField, Button, Box, Typography } from "@material-ui/core";
-import { errorNotification } from "../Helpers/NiceAlerts";
+import { errorNotification } from "../helpers/niceAlerts";
 
 export default function NewItem({ setItems, items }) {
   const nameRef = useRef()

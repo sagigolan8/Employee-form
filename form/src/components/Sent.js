@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { useLocation } from 'react-router-dom';
-export default function Send() {
+export default function Sent() {
     const location = useLocation();
     const {state:{user}} = location
     

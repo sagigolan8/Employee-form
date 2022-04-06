@@ -3,7 +3,7 @@ import Equipments from './Equipments'
 import { Button } from "@material-ui/core";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from 'react-redux';
-import { errorNotification } from '../Helpers/NiceAlerts'
+import { errorNotification } from '../helpers/niceAlerts'
 import Header from './Header';
 import ScrollToTop from 'react-scroll-up'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
